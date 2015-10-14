@@ -24,6 +24,9 @@ body {
 	width:100%;
 	display: block;
 }
+.margin{
+	margin-right: -1em;
+}
 li{
 	list-style: none;
 }
