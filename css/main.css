@@ -27,11 +27,15 @@ body {
 .margin{
 	margin-right: -1em;
 }
+a{
+	text-decoration: none;
+}
 li{
 	list-style: none;
 }
 ol{
-padding-left:0;}
+padding-left:0;
+margin-top: 2em;}
 header {
 	background-color: silver;
 }
