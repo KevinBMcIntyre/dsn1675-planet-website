@@ -32,11 +32,20 @@ a{
 }
 li{
 	list-style: none;
+	padding: 1em;
+	margin: .5em;
+}
+li:hover {
+	background-color: #1579db;
+	color: white;
+}
+h1 {
+	text-align: center;
+	margin: .25em .5em;
 }
 ol{
 	padding-left:0;
-	margin-top: 2em;
-}
+	margin: 0;}
 header {
 	background-color: silver;
 }
@@ -45,7 +54,7 @@ header {
 li {
 	display: inline-block;
 }
-nav, h1{
+nav {
 	text-align: center;
 }
 
