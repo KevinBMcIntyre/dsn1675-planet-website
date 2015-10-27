@@ -39,8 +39,11 @@ header li:hover {
 	background-color: #1579db;
 	color: white;
 }
-.paddingtopbottom {
-	    padding: 1.5em 0;
+footer li{
+	list-style: none;
+}
+.paddingtop {
+	    padding-top: 1.5em;
 }
 h1 {
 	text-align: center;
@@ -52,8 +55,20 @@ h1 {
 .topbottom {
 	margin: 1.5em 0;
 }
+.mar {
+	margin: 1em;
+}
+.pad {
+	padding: 1em;
+}
+footer p {
+	margin: 0;
+}
+dd{
+	margin: 0 0 1em 0;
+}
 figcaption{
-margin: 1em 1em 0 1em;}
+margin: 1em;}
 .textmargin{
 	margin: 0 1em;
 }
@@ -75,7 +90,7 @@ ol{
 }
 @media only screen and (min-width: 25em) {
 
-header li {
+li {
 	display: inline-block;
 }
 header nav {
