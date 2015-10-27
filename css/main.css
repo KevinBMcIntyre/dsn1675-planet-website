@@ -61,6 +61,9 @@ h1 {
 .pad {
 	padding: 1em;
 }
+.pad2 {
+	padding: 1.5em;
+}
 footer p {
 	margin: 0;
 }
