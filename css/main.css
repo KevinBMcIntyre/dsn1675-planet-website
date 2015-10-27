@@ -30,38 +30,62 @@ body {
 a{
 	text-decoration: none;
 }
-li{
+header li{
 	list-style: none;
 	padding: 1em;
 	margin: .5em;
 }
-li:hover {
+header li:hover {
 	background-color: #1579db;
 	color: white;
+}
+.paddingtopbottom {
+	    padding: 1.5em 0;
 }
 h1 {
 	text-align: center;
 	margin: .25em .5em;
 }
+.center {
+	text-align: center;
+}
+.topbottom {
+	margin: 1.5em 0;
+}
+figcaption{
+margin: 1em 1em 0 1em;}
+.textmargin{
+	margin: 0 1em;
+}
+.marginleft {    margin-left: .7em;}
+figure {
+	margin: 0;
+}
 ol{
 	padding-left:0;
 	margin: 0;}
-header {
+.grey {
+	background-color: #e2e2e2;
+}
+.coolgrey{
+	background-color: #eeeeee;
+}
+.silver {
 	background-color: silver;
 }
 @media only screen and (min-width: 25em) {
 
-li {
+header li {
 	display: inline-block;
 }
-nav {
+header nav {
 	text-align: center;
 }
 
 }
 @media only screen and (min-width: 38em) {
 
-nav, h1{
+header nav, h1{
 	text-align: left;
 }
 
