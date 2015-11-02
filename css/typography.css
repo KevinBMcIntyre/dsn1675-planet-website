@@ -89,6 +89,13 @@ thead th {
   font-style: italic;
 }
 
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.3rem;
+}
+
 .yotta {
   font-size: 1.5745rem;
   line-height: 1.6513;
@@ -157,6 +164,18 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3250rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.3250rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.6500rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.3rem;
 }
 
 .pad-top, .pad-t {
@@ -310,6 +329,18 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3500rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.3500rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.7000rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.4rem;
 }
 
 .pad-top, .pad-t {
@@ -467,6 +498,18 @@ small, .milli {
   margin-bottom: 0.3750rem;
 }
 
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.3750rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.7500rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.5rem;
+}
+
 .pad-top, .pad-t {
   padding-top: 1.5rem;
 }
@@ -620,6 +663,18 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3750rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.3750rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.7500rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.5rem;
 }
 
 .pad-top, .pad-t {

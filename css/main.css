@@ -24,15 +24,11 @@ body {
 	width:100%;
 	display: block;
 }
-.margin{
-	margin-right: -1em;
-}
 a{
 	text-decoration: none;
 }
 header li{
 	list-style: none;
-	padding: 1em;
 	margin: .5em;
 }
 header li:hover{
@@ -48,14 +44,10 @@ footer li{
 	    padding-top: 1.5em;
 }
 h1 {
-	text-align: center;
 	margin: .25em .5em;
 }
 .center {
 	text-align: center;
-}
-.topbottom {
-	margin: 1.5em 0;
 }
 .mar {
 	margin: 1em;
@@ -69,15 +61,8 @@ h1 {
 footer p {
 	margin: 0;
 }
-dd{
-	margin: 0 0 1em 0;
-}
 figcaption{
 margin: 1em;}
-.textmargin{
-	margin: 0 1em;
-}
-.marginleft {    margin-left: .7em;}
 figure {
 	margin: 0;
 }
@@ -100,6 +85,9 @@ li {
 }
 header nav {
 	text-align: center;
+}
+header h1{
+text-align: left;
 }
 
 }
