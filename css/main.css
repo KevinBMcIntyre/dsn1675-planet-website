@@ -24,6 +24,9 @@ body {
 	width:100%;
 	display: block;
 }
+h1 {
+	text-align: center;
+}
 a{
 	text-decoration: none;
 }
@@ -37,12 +40,6 @@ header li:hover{
 header a:hover {
 	color: white;
 }
-.pad2 {
-	padding: 1.5em;
-}
-figure {
-	margin: 0;
-}
 ol {
 	padding: 0;
 }
@@ -55,9 +52,14 @@ ol {
 .silver {
 	background-color: silver;
 }
+.navli{
+	text-align: left;
+}
 @media only screen and (min-width: 25em) {
-
-li {
+.navli{
+	text-align: center;
+}
+nav li {
 	display: inline-block;
 }
 
