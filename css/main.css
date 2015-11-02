@@ -37,32 +37,15 @@ header li:hover{
 header a:hover {
 	color: white;
 }
-footer li{
-	list-style: none;
-}
-.paddingtop {
-	    padding-top: 1.5em;
-}
-h1 {
-	margin: .25em .5em;
-}
-.pad {
-	padding: 1em;
-}
 .pad2 {
 	padding: 1.5em;
 }
-footer p {
-	margin: 0;
-}
-figcaption{
-margin: 1em;}
 figure {
 	margin: 0;
 }
-ol{
-	padding-left:0;
-	margin: 0;}
+ol {
+	padding: 0;
+}
 .grey {
 	background-color: #e2e2e2;
 }
@@ -76,12 +59,6 @@ ol{
 
 li {
 	display: inline-block;
-}
-header nav {
-	text-align: center;
-}
-header h1{
-text-align: left;
 }
 
 }
