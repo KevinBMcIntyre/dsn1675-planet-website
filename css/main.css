@@ -20,18 +20,16 @@ body {
 *, *::before, *::after{
 	box-sizing: inherit;
 }
-.img-flex{
-	width:100%;
-	display: block;
-}
 h1 {
 	text-align: center;
+}
+img {
+	width: 100%;
 }
 a{
 	text-decoration: none;
 }
 header li{
-	list-style: none;
 	margin: .5em;
 }
 header li:hover{
