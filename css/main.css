@@ -60,12 +60,13 @@ ol {
 nav li {
 	display: inline-block;
 }
-
 }
 @media only screen and (min-width: 38em) {
 
 header nav, h1{
 	text-align: left;
 }
-
+.moondisc {
+	width: 47.9%;
+}
 }
